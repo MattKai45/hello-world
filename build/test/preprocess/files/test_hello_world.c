@@ -25,6 +25,16 @@ void test_hello_world_NeedToImplement(void)
 
 {
 
-    UnityIgnore( (("Need to Implement hello_world")), (UNITY_UINT)(15));
+    int val1 = 1;
+
+    int val2 = 1;
+
+    int result = addition( val1, val2 );
+
+    UnityAssertEqualNumber((UNITY_INT)((val1 + val2 + 1)), (UNITY_INT)((result)), (
+
+   ((void *)0)
+
+   ), (UNITY_UINT)(18), UNITY_DISPLAY_STYLE_INT);
 
 }

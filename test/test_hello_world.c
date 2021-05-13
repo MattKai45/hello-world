@@ -12,5 +12,8 @@ void tearDown(void)
 
 void test_hello_world_NeedToImplement(void)
 {
-    TEST_IGNORE_MESSAGE("Need to Implement hello_world");
+    int val1 = 1;
+    int val2 = 1;
+    int result = addition( val1, val2 );
+    TEST_ASSERT_EQUAL_INT( val1 + val2 + 1, result );
 }

@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-ceedling test:all
+ceedling gcov:all utils:gcov

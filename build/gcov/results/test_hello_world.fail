@@ -3,16 +3,16 @@
   :path: test
   :file: test_hello_world.c
 :successes: []
-:failures: []
-:ignores:
+:failures:
 - :test: test_hello_world_NeedToImplement
-  :line: 15
-  :message: Need to Implement hello_world
+  :line: 18
+  :message: Expected 3 Was 2
   :unity_test_time: 0
+:ignores: []
 :counts:
   :total: 1
   :passed: 0
-  :failed: 0
-  :ignored: 1
+  :failed: 1
+  :ignored: 0
 :stdout: []
-:time: 0.33877330005634576
+:time: 0.2839023999404162
